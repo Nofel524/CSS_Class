@@ -1,0 +1,760 @@
+/* Body margin Close */
+/* body{
+      margin: 0;
+      padding: 0;
+} */
+
+/* External Css File
+P{
+      color: brown;
+      text-align: justify;
+      background-color: darkgray;
+      font-size: 25px;
+      font-style: italic;
+      padding: 20px;
+}
+*/
+
+/*  How To Use Class and ID Selector
+.para1{
+      color: brown;
+      text-align: justify;
+      background-color: darkgray;
+      font-size: 25px;
+      font-style: italic;
+      padding: 20px;  
+}
+#para{
+      color: brown;
+      text-align: justify;
+      background-color: darkgray;
+      font-size: 25px;
+      font-style: italic;
+      padding: 20px;  
+}
+
+*/
+/* More on Class and id  (id same)
+.section1 {
+      background-color: darkcyan;
+}
+.section1 h1,b {
+   text-align: center;
+   font-size: 30px;
+   color: darksalmon;
+   font-style: initial;
+   padding: 10px;
+}
+.section1 p {
+      text-align: center;
+      font-size: 22px;
+      color: rgb(246, 244, 244);
+      text-align: justify;
+  
+     
+}
+
+*/
+/* Selectors and Combinations=============================================== */
+/* Child Selectors > 
+div > p     { 
+      color: brown;
+      text-align: justify;
+      background-color: darkgray;
+      font-size: 25px;
+      font-style: italic;
+      padding: 20px;  
+}*/
+
+/* Genarel Sibiling selector
+div ~ p     { 
+     
+       Div external 
+}
+*/
+
+/* Adjacent sibiling selector (Imidiate work)
+div + p{ 
+     
+     
+}*/
+/* Font style
+.mystyle{
+      font-family:'Times New Roman', Times, serif;
+      font-size: 40px;
+      font-style: italic;
+      font-weight: bolder;
+      color: darksalmon;
+}*/
+/* How to style text in webpage 
+.p1{
+      text-decoration:line-through;
+      text-transform: uppercase;
+      line-height: 0px;
+    
+}
+.p2{
+      text-decoration: overline;
+      text-transform: capitalize;
+      letter-spacing: 10px;
+     
+}
+.p3{
+     text-decoration: underline;
+     text-indent: 100px;
+     text-transform: lowercase;
+     text-shadow: 5px 2px greenyellow;
+     font-size: 30px;
+     word-spacing: 20px;
+}
+*/
+
+/* CSS Box Model
+
+.seection1{
+    color: green;
+    font-size: 20px;
+    background-color: darkgray;
+    width: 300px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 100px;
+    padding: 50px;
+}
+.seection2{
+      color: rgb(171, 223, 28);
+      font-size: 20px;
+      background-color: rgb(192, 30, 30);
+      width: 300px;
+      margin-top: 40px;
+      margin-bottom: 50px;
+      margin-left: 40px;
+      margin-right: 100px;
+      padding: 30px;
+}
+*/
+/* How to add border in webpage 
+h1{
+      border: 10px solid green;
+      width: 200px;
+}
+
+h2{
+      border: 10px dashed green;
+      width: 200px;
+}
+
+h3{
+      border: 10px dotted green;
+      width: 200px;
+}
+h4{
+      border-top: 4px red solid;
+      border-right: 4px dotted green;
+      border-bottom: 4px dashed grey;
+      border-left:4px solid saddlebrown;
+      width: 200px;
+      padding: 40px;
+      border-radius: 20px;
+      
+}
+*/
+
+/* Box Model->Content,Padding,Border,Margin
+.container{
+      background-color: brown;
+      width: 300px;
+      padding: 5px;
+      border: 5px solid black;
+      margin: 5px;
+}
+p{
+      margin-left: 15px;
+}*/
+/* Block element is(span tag) max-width and width
+.cl{
+      background-color:grey;
+      border: 3px solid black;
+      padding:30px;
+      width: 400px;
+}
+
+.cl1{
+      background-color:rgb(119, 44, 44);
+      border: 3px solid rgb(227, 192, 192);
+      padding:30px;
+      max-width: 400px;
+}
+*/
+
+/* Pseudo class and pseodo element
+a:hover{
+      color: brown;
+      background-color: darkgray;
+      text-decoration: none;
+}
+a.con:hover{
+      background-color: coral;
+}
+
+input{
+      border: 2px  solid black;
+      padding: 5px;
+      width: 200px;
+      font-size:1rem;
+}
+input:hover{
+      background-color: cornsilk;
+}
+input.text1:focus{
+      background-color: rgb(213, 222, 183);
+}
+p:hover{
+ color: rgb(141, 6, 182);
+}
+p::first-letter{
+      color: darkcyan;
+      font-size: 50px;
+      font-weight: bold;
+}
+p.para::first-line{
+    color: darksalmon;
+    font-family: sans-serif;
+    font-size: 23px;
+}*/
+/* Pseudo class 2 
+
+.demo:hover{
+ color: rgb(224, 228, 236);
+ background-color: rgb(74, 72, 72);
+}
+
+p:first-child{
+      color: rgb(224, 228, 236);
+      background-color: rgb(74, 72, 72);
+     }
+
+
+p:last-child{
+      color: rgb(224, 228, 236);
+      background-color: rgb(74, 72, 72);
+     } 
+     
+     
+.demo p:nth-child(2n+1){
+      background-color: coral;
+      color: aquamarine;
+}       
+
+.demo p:nth-child(even){
+      background-color: coral;
+      color: aquamarine;
+} 
+  
+.demo p:first-of-type{
+      background-color: coral;
+      color: aquamarine;
+}   
+.demo p:last-of-type{
+      background-color: coral;
+      color: aquamarine;
+}   
+
+*/
+/* Pseudo Class Element
+.demo p::selection{
+      color: rgb(145, 15, 15);
+      font-size: 3rem;
+}
+.demo input::placeholder{
+      color: darkgoldenrod;
+}
+
+*/
+/*  Background Image 
+body{
+      background-image:url(img/CSS.png);
+      background-repeat: no-repeat;
+      background-position:right top;
+      background-attachment: fixed;
+}*/
+
+/* Gradient -Linear,Radial Gradient
+.Gradient-style{
+
+      height: 400px;
+      width: 400px;
+      background-image: linear-gradient(to left,red,green,yellow,orange,tomato);
+}
+.Radial-style{
+      height: 400px;
+      width: 400px;
+      background-image: radial-gradient(circle,orange,green,red);
+}
+*/
+
+/* CSS Layout design============
+.seection1{
+     height:100px;
+     width: 300px;
+     background-color: cadetblue;
+     float: left;
+}
+.seection2{
+      height:100px;
+      width: 300px;
+      background-color: rgb(41, 52, 53);
+      float:right;
+}
+.clear{
+ clear: both;
+}
+.seection3{
+      height:100px;
+      width: 300px;
+      background-color: rgb(112, 197, 81);
+      float: center;
+}
+*/
+
+/* How To Create Navigation Menu 
+.nav-menu{
+
+      background-color: black;
+      width: auto;
+      height:80px;
+      margin: 0,auto;
+}
+.nav-menu ul{}
+.nav-menu ul li{
+   
+ list-style-type: none;
+ margin: 20px;
+ float:right;
+}
+.nav-menu ul li a{
+
+      text-decoration: none;
+      font-size: 30px;
+      color: white;
+      cursor: pointer;
+
+}
+.nav-menu ul li a:hover{
+
+      text-decoration:underline;
+     
+
+}
+
+*/
+/* .div1{
+      width: 600px;
+      height:200px;
+      background-color: rgb(192, 124, 100);
+      border: 5px double black;
+      float: left;
+      box-sizing: border-box;
+      opacity: 0.5;
+}   
+.div2{
+      width: 600px;
+      height:200px;
+      background-color: rgb(228, 103, 197);
+      border: 5px double black;
+      float: left;
+      box-sizing: border-box;
+} */
+
+/* Box Sizing and Opacity
+
+
+.img{
+      width: 600px;
+      height:200px; 
+      opacity: 0.5;  
+}
+.img:hover{
+      opacity:1;  
+}
+*/
+
+/* Layout Design And Position Property 
+.div1{
+      border: 3px solid black;
+      padding: 5px;
+      top:50px;
+      position: static;
+
+}
+
+.div2{
+      border: 3px solid rgb(189, 38, 38);
+      padding: 5px;
+      top:50px;
+      position:relative;
+      left: 30px;
+      top: 100px;
+
+}
+.nav-style{
+      border: 3px solid rgb(189, 38, 38);
+      padding: 5px;
+      top:0px;
+      left: 0px;
+      position: fixed;
+      background-color: black;
+}
+.div3{
+      border: 3px solid rgb(189, 38, 38);
+      padding: 5px;
+      top:50px;
+      position:relative;   
+      height: 300px;
+}
+
+.div4{
+      border: 3px solid rgb(189, 38, 38);
+      position: absolute;
+      left: 40px;
+      
+}
+*/
+
+/* CSS Overflow And Customer Tooltip
+.overflow{
+      height: 300px;
+      width: 300px;
+      background-color: darkblue;
+      overflow:auto;
+}
+
+
+
+.tooltip.tooltip-text{
+      visibility: hidden;
+      background-color: cornflowerblue;
+      color: beige;
+      width:100px;
+      padding: 5px;
+      border-radius:5px;
+      position: absolute;
+      top: 30px;
+      left:50px;
+      z-index: 1;
+      
+
+}
+.tooltip:hover.tooltip-text{
+     visibility: visible;
+}
+
+*/
+/* Layout  Desing |Flex box layout
+.div-container{
+          background-color: aquamarine;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          
+          
+         
+}
+.div-container >div{
+      font-size: 30px;
+      margin: 10px;
+      padding: 30px;
+      width: 100px;
+      background-color: coral;
+}
+*/
+
+/* Text-Shadow and box-shadow
+.h11{
+      text-align: center;
+      color: cadetblue;
+      font-size: 30px;
+      text-shadow: 5px 3px 5px black;
+}
+
+.box-shadow{
+      width:400px;
+    
+      height: 300px;
+      background-color: cadetblue;
+      color: rgb(218, 213, 203);
+      border: 2px solid black;
+      font-size: 30px;
+      box-shadow:  10px -30px 20px grey;
+ box-shadow: inset 10px -30px 20px grey; ()
+}
+
+*/
+
+/* How to Style Card using css 
+.div-card{
+      width: 300px;
+      margin: 10px;
+      box-sizing: border-box;
+      box-shadow: 1px 2px 4px rgb(30, 13, 13);
+}
+.img-style{
+      width: 100%;
+}
+
+.card-body{
+      padding:10px;
+      background-color: darkmagenta;
+}
+.card-title{
+   text-align: center;
+   color: burlywood;
+   font-weight:bolder;
+   font-family: sans-serif;
+}
+.card-des{
+      text-align: justify;
+      color: wheat;
+      
+
+}
+
+.div-card:hover{
+      box-shadow:5px 20px 4px black;
+}
+
+.div-continer{
+      display: flex;
+      box-sizing: border-box;
+      background-color: aqua;
+      padding: 20px 0;
+      justify-content:center;
+      align-items: center;
+      flex-wrap: wrap;
+}
+*/
+/* How to create drop down menu
+
+.navbar{
+      background-color: rgb(73, 139, 139);
+      padding: 30px;
+      text-align: center;
+
+}
+.navbar a{
+      text-decoration: none;
+      color: bisque;
+      padding: 10px 20px;
+      cursor: pointer;
+      font-size:2rem;
+}
+
+.dropdown-container{
+      display: inline;
+      position:relative;
+}
+
+.dropdown-content{
+      position: absolute;
+      top: 30px;
+      right: 0px;
+      background-color:#40868b;
+      text-align: left;
+      min-width: 100%;
+      display: none;
+}
+
+
+.dropdown-content a{
+ display:block;
+}
+
+.dropdown-content a:hover{
+      background-color: gray;
+}
+.dropdown-container:hover .dropdown-content{
+      display: inline;
+}
+
+*/
+
+
+/* Responsive Navigation Menu 
+
+.menu-bar{
+      background-color: cadetblue;
+      display: flex;
+      justify-content: flex-end;
+}
+
+.menu-bar a{
+
+      text-decoration: none;
+      font-size:25px;
+      padding: 20px;
+      color: white;
+      
+}
+
+.menu-bar a:hover{
+      background-color: grey;
+}
+
+@media screen and(max-width:600px) {
+      .menu-bar{
+            flex-direction: column;
+            padding: 10px;
+      }
+      .menu-bar a{
+            background-color: indigo;
+            margin: 10px 0px;
+            text-align: center;
+            border-radius:10px;
+      }
+}
+
+*/
+
+/* Responsive columns design
+
+*{
+      box-sizing: border-box;
+}
+.column{
+      float: left;
+      padding:20px;
+      width:25%;
+}
+
+@media screen and (max-width:900px){
+
+      .column{
+            width:100%;
+           
+      }
+}
+
+
+*/
+/* Transform Property--------------------------------------------------- 
+.transform-style{
+      height: 200px;
+      width: 200px;
+      background-color: burlywood;
+      margin: 0 auto;
+      margin-top: 200px;
+      transition:5s;
+     
+}
+
+.transform-style:hover{
+      transform:scale(2); 
+      transform:rotate(-45deg);
+      transform: translate(240px,200px);
+      transform: scale(3) rotate(90deg);
+}
+
+
+*/
+
+/* Animation Property
+
+img{
+ max-width: 200px;
+ height: auto;
+ border: 4px solid rgba(98, 5, 179, 0.187);
+
+ margin: 0 auto;
+ display: block;
+ margin-top: 200px;
+ border-radius:50%;
+ 
+
+ animation-name:nofel;
+ animation-duration: 10s;
+
+}
+
+@keyframes nofel{
+      from{
+            max-width: 200px;
+            border: 4px solid rgba(98, 5, 179, 0.187);
+      }
+      to{
+            max-width:300px;
+            border: 4px solid red
+      }
+}
+*/
+/* Class 2---------------------------------------------------------------
+img{
+      max-width: 200px;
+      height: auto;
+      border: 4px solid rgba(98, 5, 179, 0.187);
+     
+      margin: 0 auto;
+      display: block;
+      margin-top: 200px;
+      border-radius:50%;
+      
+      position: relative;  
+      animation-name: nofel;   
+      animation-duration: 5s;
+      animation-iteration-count:infinite;
+      animation-timing-function: linear;
+     }
+     
+     @keyframes nofel{
+        0%{
+            top: 0;
+            left: 0;
+        }
+        50%{
+            top: 100px;
+            left: 0;
+            opacity:0;
+            
+        }
+        100%{
+            top: 0;
+            left: 0;
+        }
+     }
+
+*/
+
+
+/* Transition and transform
+
+.main{
+      background-color: cadetblue;
+      min-height: 300px;
+      width: 300px;
+      margin: 0 auto;
+      margin-top: 100px;
+}
+
+      /* transition-property: min-height;
+      transition-duration: 5s;
+      transition-delay:1s;
+
+
+}
+.main:hover{
+      min-height: 200px;
+} 
+
+p{
+      font-size:1rem;
+      color: burlywood;
+      text-align: justify;
+      transition: font-size 3s;
+}
+p:hover{
+      font-size: 3rem;
+}
+
+
+
+*/
